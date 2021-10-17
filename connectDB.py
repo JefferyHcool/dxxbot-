@@ -7,7 +7,7 @@ class ConnectDB():
         pass
 
     def connectTomysql(self):
-        self.connect = pymysql.connect(host='1.116.61.49', port=3306, user='DXX', password='HJW123456', db="dxx",
+        self.connect = pymysql.connect(host='xxxx', port=3306, user='DXX', password='xxxx', db="dxx",
                                   charset='utf8', cursorclass=pymysql.cursors.DictCursor)
         # 在上面host中输入你的IP地址，在password中输入你的数据库密码。
         self.cursor = self.connect.cursor()  # 获取游标
